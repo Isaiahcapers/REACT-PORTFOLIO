@@ -1,7 +1,8 @@
-import ReactDom from 'react-dom/client'
-import App from './App.jsx'
+
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css'
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ErrorPage from './pages/ErrorPage';
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
