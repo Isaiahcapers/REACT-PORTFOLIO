@@ -27,7 +27,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 h1 {
@@ -53,6 +53,26 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.div1{
+  display:flex;
+  flex-wrap: wrap;
+  max-width:100%;
+  margin: 0 auto;
+  content: ""  
+}
+.port-img {
+  flex: 1 1 40%;
+  margin: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.port-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

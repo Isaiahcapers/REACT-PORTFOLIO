@@ -6,11 +6,11 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   console.log("app component rendered");
   return (
-    <div>
+    <>
       <Nav />
       <Outlet />
       <Footer />
-    </div>
+    </>
   );
 }
 
