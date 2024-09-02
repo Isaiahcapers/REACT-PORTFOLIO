@@ -9,16 +9,16 @@ export default function Nav() {
       
         <Navbar
           links={[
-            <Link key={1} className="nav-link text-light" to="/">
+            <Link key={1} className="nav-link text-light px-1" to="/">
               About Me
             </Link>,
-            <Link key={2} className="nav-link text-light" to="/portfolio">
+            <Link key={2} className="nav-link text-light px-1" to="/portfolio">
               Portfolio
             </Link>,
-            <Link key={3} className="nav-link text-light" to="/contact">
+            <Link key={3} className="nav-link text-light px-1" to="/contact">
             Contact
           </Link>,
-          <Link key={4} className="nav-link text-light" to="/resume">
+          <Link key={4} className="nav-link text-light px-1" to="/resume">
           Resume
         </Link>,
           ]}

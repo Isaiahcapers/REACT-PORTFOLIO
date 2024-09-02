@@ -2,12 +2,14 @@ import logo from '../assets/images/image1.png';
 export default function AboutPage(){
   return (
     <div className="container-fluid pt-4">
-      <div><h2>About Me</h2></div>
+      <div>
+        <h2>About Me</h2>
+      </div>
       <div>
         <img src ={logo} alt="Photo" className="rounded-circle img-fluid"
         style ={{width: '100px', height: '100px'}}/>
       </div>
-      <div>
+      <div >
         <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
