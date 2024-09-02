@@ -9,8 +9,9 @@ import repoLinks from '../components/UI/RepoLinks';
 const [vehicleBuilder,employeeTracker,recipeVault,readmeGenerator,drillGame,reactPortfolio] = repoLinks;
 export default function PortfolioPage() {
     return (
-        <div className="container-fluid d-flex">
-           <div className='row '>
+        <div className="portfolio-container">
+            <div className="container-fluid d-flex flex-column">
+             <div className='row '>
                 <div className="port-img col-12 col-md-6 d-flex flex-column">
                     <div className='d-flex justify-content-center'>
                     <img src={logo1} alt="PC 1"/>
@@ -65,7 +66,8 @@ export default function PortfolioPage() {
                         <a href={reactPortfolio.link}><img src={logo7} alt="github logo" style={{width: '25px', height: '25px'}}/></a>
                     </div>
                 </div>
-           </div>
+            </div>
+            </div>
         </div>
     );
 }
