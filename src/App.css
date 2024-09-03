@@ -53,6 +53,7 @@
     "footer";
   grid-template-rows: auto 1fr auto;
   height: 100vh;
+
 }
 
 .app-nav {

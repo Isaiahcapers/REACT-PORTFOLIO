@@ -1,7 +1,6 @@
 export default function Nav({ links }) {
     return (
-      <nav className="bg-secondary container-fluid ">
-        <div >
+      <nav className="nav1 bg-secondary container-fluid d-flex flex-column">
           <div className="collapse navbar-collapse d-flex flex-row justify-content-between" id="navbarSupportedContent">
             <div className ="text-white">
               <h2>Isaiah</h2>
@@ -12,7 +11,6 @@ export default function Nav({ links }) {
               </ul>
             </div>
           </div>
-        </div>
       </nav>
     );
   }
