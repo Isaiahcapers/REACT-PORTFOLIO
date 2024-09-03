@@ -43,6 +43,27 @@
 }
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   max-width: 100%;
-  
+}
 
+.app-grid {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.app-nav {
+  grid-area: nav;
+}
+
+.app-content {
+  grid-area: content;
+  overflow-y: auto;
+}
+
+.app-footer {
+  grid-area: footer;
 }

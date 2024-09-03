@@ -2,7 +2,7 @@ import logo from '../assets/images/image1.png';
 export default function AboutPage(){
   return (
     <div className="container-fluid pt-4">
-      <div>
+      <div class ='pt-4'>
         <h2>About Me</h2>
       </div>
       <div>

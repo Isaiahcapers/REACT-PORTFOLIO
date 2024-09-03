@@ -1,5 +1,5 @@
-import repoLinks from '../components/RepoLinks.jsx';
-const []
+import repoLinks from '../components/UI/RepoLinks';
+const [vehicleBuilder,employeeTracker,recipeVault,readmeGenerator,drillGame,reactPortfolio] = repoLinks;
 export default function ResumePage () {
     return (
         <div class="container pt-5">
@@ -16,13 +16,13 @@ export default function ResumePage () {
             <div>
                 <h2>Front-End Projects</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href={vehicleBuilder.link}>Vehicle Builder</a></li>
+                    <li><a href={employeeTracker.link}>Employee-Tracker</a></li>
+                    <li><a href={recipeVault.link}>Recipe-Vault</a></li>
+                    <li><a href={readmeGenerator.link}>Read-Me Generator</a></li>
                 </ul>
             </div>
-            <p>My resume will go here</p>
+            <p></p>
         </div>
     );
 
