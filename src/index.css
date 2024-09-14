@@ -31,18 +31,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.port-img:hover .atags {
-  visibility: visible;
-}
+
 .port-img:hover img {
 opacity: 0.30;
 }
-.atags {
-  visibility: hidden;
-  position: absolute;
-  bottom: 50%;
-  left: 40%;
-}
+
 
 * {
   box-sizing: border-box;
