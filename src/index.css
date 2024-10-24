@@ -66,18 +66,4 @@ button:focus-visible {
 }
 
 
-.port-img {
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
-}
-.port-img img {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin:0;
-  object-fit: contain;
-  max-width: 300px;
-}
-
 
