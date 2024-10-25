@@ -9,7 +9,7 @@ export default function Nav() {
         <Navbar
           links={[
             <Link key={1}  to="/">
-              About Me
+              Home
             </Link>,
             <Link key={2}  to="/portfolio">
               Portfolio

@@ -14,11 +14,11 @@ const repoLinks = [
         link:'https://github.com/Isaiahcapers/Recipe-Vault',
         deploy:'https://isaiahcapers.github.io/Recipe-Vault/'
     },
-    {
-        name:'Read-Me Generator',
-        link:'https://github.com/Isaiahcapers/Professional-README-Generator',
-        deploy:''
-    },
+    // {
+    //     name:'Read-Me Generator',
+    //     link:'https://github.com/Isaiahcapers/Professional-README-Generator',
+    //     deploy:''
+    // },
     {
         name:'Drill Game',
         link:'https://github.com/Isaiahcapers/Drill-Game',
@@ -28,6 +28,25 @@ const repoLinks = [
         name:'React Portfolio',
         link:'https://github.com/Isaiahcapers/REACT-PORTFOLIO',
         deploy:''
+    },
+    {
+        name:'Cypress-Tech-Quiz',
+        link:'https://github.com/Isaiahcapers/Tech-Quiz-Test',
+        deploy:''
+    },
+    {
+        name:"Social Network API",
+        link:'https://github.com/Isaiahcapers/Socail-Network-Api',
+        deploy:''
+    },
+    {
+        name:'Melodify',
+        link:'https://github.com/Isaiahcapers/Melodify',
+        deploy:''
+    },
+    {
+        name:'Book Search',
+        link:'https://github.com/Isaiahcapers/Book-Search-Wow'
     }
     ]
 

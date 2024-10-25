@@ -1,0 +1,157 @@
+
+.about-grid {
+    display: grid;
+    grid-template-areas:
+        "Hero"
+        "Portfolio";
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 25px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 25px;
+    padding-top: 10px;
+}
+about-hero {
+    grid-area: Hero;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    max-height: 300px;
+}
+#hero-img {
+    grid-area: Hero;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#hero-img h4 {
+    color: #555555;
+    margin: 0;
+    padding: 0;
+}
+#bio {
+    grid-area: Hero;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+
+}
+#bioP > p {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+#view-work {
+    grid-area: Hero;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 0%;
+    text-align: center;
+    position: relative;
+}
+#view-work a {
+    color: aliceblue;
+}
+#view-work:hover{
+    opacity: 50%;
+}
+#view-work img{
+opacity: 80%;    
+}
+#resume {
+    grid-area: Hero;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    padding: 0%;
+    opacity: 80%;    
+}
+#resume:hover{
+    opacity: 50%;
+}
+#cd1 {
+    grid-area: Portfolio;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: aqua; */
+}
+#cd2 {
+    grid-area: Portfolio;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: black; */
+}
+
+#cd3 {
+    grid-area: Portfolio;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: blue; */
+}
+
+.card {
+    background-color: #b0a8a0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+.card-img-top {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+    text-align: center;
+    position: relative;
+}
+.port {
+    background:linear-gradient(to left, #b0a8a0 50%, #b7c9c9 50%);
+    background-position: right;
+    transition: background-position .5s ease-out;
+    background-size: 200%;
+}
+.port:hover{
+    background-position: left;
+    /* opacity: .4; */
+}
+.port:hover .card-body, .port:hover .card-img-top {
+    opacity: 0;
+}
+.card-git {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.port:hover .card-git {
+    opacity: 100%;
+
+}
+.g-tag {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+    #bioP p {
+        font-size: 12px;
+    }
+}
+
+/* Styles for very small screens */
+@media (max-width: 480px) {
+    #bioP p {
+        font-size: 8px;
+    }
+}
