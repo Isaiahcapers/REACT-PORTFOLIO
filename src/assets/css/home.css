@@ -6,7 +6,7 @@
         "Portfolio";
     grid-template-columns: repeat(5, 1fr);
     column-gap: 25px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     row-gap: 25px;
     padding-top: 10px;
 }
@@ -142,10 +142,18 @@ opacity: 80%;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
     border-radius: 50%;
 }
+#bg, #bg img {
+    height: 100%;
+}
 
-@media (max-width: 800px) {
+@media  screen and (max-width: 600px) {
     #bioP p {
         font-size: 12px;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
     }
 }
 
