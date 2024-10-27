@@ -1,25 +1,13 @@
 
 .about-grid {
     display: grid;
-    grid-template-areas:
-        "Hero"
-        "Portfolio";
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 25px;
-    grid-template-rows: auto;
-    row-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    grid-template-rows: 1fr 1fr 1fr;
     padding-top: 10px;
-}
-about-hero {
-    grid-area: Hero;
-    grid-column: 1 / 6;
-    grid-row: 1 / 2;
-    max-height: 300px;
+    justify-content: center;
 }
 #hero-img {
-    grid-area: Hero;
-    grid-column-start: 1;
-    grid-column-end: 2;
     text-align: center;
     margin: 0 auto;
 
@@ -30,11 +18,7 @@ about-hero {
     padding: 0;
 }
 #bio {
-    grid-area: Hero;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column: span 2;
     text-align: center;
 
 }
@@ -45,9 +29,6 @@ about-hero {
     font-size: 16px;
 }
 #view-work {
-    grid-area: Hero;
-    grid-column-start: 4;
-    grid-column-end: 5;
     padding: 0%;
     text-align: center;
     position: relative;
@@ -62,40 +43,14 @@ about-hero {
 opacity: 80%;    
 }
 #resume {
-    grid-area: Hero;
-    grid-column-start: 5;
-    grid-column-end: 6;
     padding: 0%;
     opacity: 80%;    
 }
 #resume:hover{
     opacity: 50%;
 }
-#cd1 {
-    grid-area: Portfolio;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    /* background-color: aqua; */
-}
-#cd2 {
-    grid-area: Portfolio;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    /* background-color: black; */
-}
 
-#cd3 {
-    grid-area: Portfolio;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    /* background-color: blue; */
-}
+
 
 .card {
     background-color: #b0a8a0;
@@ -150,10 +105,8 @@ opacity: 80%;
     #bioP p {
         font-size: 12px;
     }
-    .about-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 0px;
+    #bio {
+        grid-column: span 1;
     }
 }
 
