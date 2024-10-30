@@ -2,7 +2,6 @@ import logo from "../assets/images/image1.png";
 import resume from "../assets/images/resume_large.png";
 import windowImage from "../assets/images/window_large.png";
 import download from "../assets/files/Isaiah_C_Resume.docx.pdf"
-import { Link } from 'react-router-dom';
 import repoLinks from '../components/UI/RepoLinks';
 const [vehicleBuilder,employeeTracker,recipeVault,readmeGenerator,drillGame,Cypress,Social,Melodify,BookSearch] = repoLinks;
 import logo1 from '../assets/images/code1.png';

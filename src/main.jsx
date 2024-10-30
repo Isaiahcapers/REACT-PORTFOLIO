@@ -21,10 +21,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: 'portfolio',
-        element: <PortfolioPage />,
-      },
+      // {
+      //   path: 'portfolio',
+      //   element: <PortfolioPage />,
+      // },
       {
         path: 'resume',
         element: <ResumePage />,

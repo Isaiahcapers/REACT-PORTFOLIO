@@ -1,5 +1,6 @@
 @import './assets/css/nav.css';
 @import './assets/css/home.css';
+@import './assets/css/contact.css';
 #root {
   max-width: 100%;
   margin: 0 auto;
