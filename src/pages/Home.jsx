@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div id="view-work" className="card">
-          <img src={windowImage} alt="View Work" className="card-img" />
+          <img src={windowImage} alt="View Work" className="card-img" id="bg" />
           <div className="card-img-overlay">
             <a
               href="https://github.com/Isaiahcapers"
@@ -61,8 +61,8 @@ export default function Home() {
           </div>
         </div>
         <div id="resume" className="card">
-          <a href={download} download="Isaiah_C_Resume">
-            <img src={resume} alt="Resume" className="card-img" />
+          <a href={download} download="Isaiah_C_Resume" id="bg">
+            <img src={resume} alt="Resume" className="card-img " />
           </a>
         </div>
         <div className="card port" id="cd1">
