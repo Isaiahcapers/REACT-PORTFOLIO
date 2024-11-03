@@ -20,7 +20,7 @@ export default function Home() {
           <img src={logo} alt="Photo" className="card-img-top" />
           <div className="card-body">
             <h4>Isaiah Capers</h4>
-            <a href="#" className="btn btn-info">
+            <a href="https:/www.linkedin.com/in/isaiah-capers" className="btn btn-info">
               Connect with Me
             </a>
           </div>
@@ -159,7 +159,6 @@ export default function Home() {
             <img src={logo7} alt="" className="g-tag" />
           </a>
         </div>
-        
       </div>
     </>
   );
