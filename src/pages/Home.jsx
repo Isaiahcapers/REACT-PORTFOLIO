@@ -159,9 +159,7 @@ export default function Home() {
             <img src={logo7} alt="" className="g-tag" />
           </a>
         </div>
-        <div className="card port" id="cd10">
-          10
-        </div>
+        
       </div>
     </>
   );
